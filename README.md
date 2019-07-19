@@ -84,8 +84,8 @@ For *TheThingsNetwork* credentials, change:
 ```json
     "target_overrides": {
         "*": {
-            ...
             "lora.appskey": "{C-STYLE HEX App Session Key}",
             "lora.nwkskey": "{C-STYLE HEX Network Session Key}",
             "lora.device-address": "0x<HEX DATA OF device address>" 
+            },
 ```
