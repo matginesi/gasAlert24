@@ -58,7 +58,7 @@ the `tx_buffer` and settings the correct dimension value of it, into `packet_len
             (char *) tx_buffer, "%4X%u", ID, data);
         
         printf("\r\ndata sent: %s\r\n", tx_buffer);
-    ...
+        ...
     }
 ```
 
@@ -73,23 +73,19 @@ Note:
 In order to change radio module, set the proper value in:
 
 ```json
-...
     "config": {
         "lora-radio": {
             "help": "Which radio to use (options: SX1272,SX1276)",
             "value": "SX1276"
         },
-...
 ```
 
 For *TheThingsNetwork* credentials, change:
 ```json
-...
     "target_overrides": {
         "*": {
             ...
             "lora.appskey": "{C-STYLE HEX App Session Key}",
             "lora.nwkskey": "{C-STYLE HEX Network Session Key}",
             "lora.device-address": "0x<HEX DATA OF device address>" 
-...
 ```
