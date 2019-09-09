@@ -138,7 +138,6 @@ In order to change radio module, set the proper value in:
             "help": "Which radio to use (options: SX1272,SX1276)",
             "value": "SX1276"
         },
-...
 ```
 
 For *TheThingsNetwork* credentials, change:
@@ -147,9 +146,8 @@ For *TheThingsNetwork* credentials, change:
 ...
     "target_overrides": {
         "*": {
-            ...
+
             "lora.appskey": "{C-STYLE HEX App Session Key}",
             "lora.nwkskey": "{C-STYLE HEX Network Session Key}",
             "lora.device-address": "0x<HEX DATA OF device address>"
-...
 ```
