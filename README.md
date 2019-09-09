@@ -100,8 +100,7 @@ Sensor, for the board used in the project, is addressed on pin analog 1 (`A1`). 
 
 In the `send_data()` function the user can set any kind of encoding of transmitted data, writing the correct message into the `tx_buffer` and settings the correct dimension value of it, into `packet_len` variable.
 
-```c++
-    ...
+```cpp
     static void send_message()
     {
         uint16_t packet_len;
@@ -117,7 +116,6 @@ In the `send_data()` function the user can set any kind of encoding of transmitt
             (char *) tx_buffer, "%4X%u", ID, data);
 
         printf("\r\ndata sent: %s\r\n", tx_buffer);
-    ...
     }
 ```
 
