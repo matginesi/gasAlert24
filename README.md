@@ -4,9 +4,9 @@
 
 | Contributors: | email |
 | --- | --- |
-| Francesco Cassini |  |
-| Lorenzo Leschiera |  |
-| Matteo Ginesi     | mat.ginesi@gmail.com |
+| Francesco Cassini | cassini.785771@studenti.uniroma1.it |
+| Lorenzo Leschiera | ginesi.1832198@studenti.uniroma1.it |
+| Matteo Ginesi     | leschiera.1325697@studenti.uniroma1.it|
 
 ## dragino LoRaWAN Gateway configuration
 
