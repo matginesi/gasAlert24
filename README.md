@@ -149,3 +149,7 @@ For *TheThingsNetwork* credentials, change:
             "lora.nwkskey": "{C-STYLE HEX Network Session Key}",
             "lora.device-address": "0x<HEX DATA OF device address>"
 ```
+
+## Mbed import
+
+To avoid problems in importing the project from github to Mbed, it is strongly recommended to download the repo in zip format and add the single files in a new project on Mbed.
